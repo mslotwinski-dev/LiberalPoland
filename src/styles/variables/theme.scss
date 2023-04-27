@@ -1,0 +1,23 @@
+@function theme($key) {
+  @if map-has-key($theme, $key) {
+    @return map-get($theme, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
+
+$theme: (
+  main1: #00647d,
+  main2: #008692,
+  main3: #00A896,
+
+  sky: #00afdb,
+  rose: #a50034,
+
+  light: #e3e3e3,
+  gray: #c6cbcc,
+  dark_gray: #7c888c,
+  dark: #28353a,
+  black: #262626,
+);
