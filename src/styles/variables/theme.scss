@@ -21,3 +21,5 @@ $theme: (
   dark: #28353a,
   black: #262626,
 );
+
+$gradient: linear-gradient(45deg, theme(main1), theme(main2), theme(main3))

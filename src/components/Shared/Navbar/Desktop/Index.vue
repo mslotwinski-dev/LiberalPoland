@@ -46,7 +46,7 @@ export default defineComponent({
   // border-radius: 10px;
   transition: 0.5s all;
 
-  background: linear-gradient(45deg, theme(main1), theme(main2), theme(main3));
+  background: $gradient;
   box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.185);
 
   &:before {

@@ -2,7 +2,6 @@
   <router-link to="/" class="home">
     <img src="@/assets/icons/logo/logo1.png" />
     <div class="text">POLSKA LIBERALNA</div>
-    <Quotes />
   </router-link>
 </template>
 

@@ -54,7 +54,7 @@ export default defineComponent({
 @import '@/styles/index.scss';
 
 .mobile {
-  background: linear-gradient(45deg, theme(main1), theme(main2), theme(main3));
+  background: $gradient;
 }
 
 .site-menu {
