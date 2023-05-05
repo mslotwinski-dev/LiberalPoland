@@ -30,6 +30,7 @@ export default defineComponent({})
 .container {
   padding: 20px;
 }
+
 header {
   .rect {
     position: absolute;
