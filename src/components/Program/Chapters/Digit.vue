@@ -18,8 +18,8 @@
     <p>
       Rządy państw muszą zacząć działać w tym kierunku wspólnie. Muszą dzielić
       się tymi algorytmami i nie dopuścić do ich przekroczenia. Będzie to
-      niewyobrażalnie trudne zadanie, ale jeśli go nie podejmiemy,
-      najprawdopodobniej skończy się to tragedią dla gatunku ludzkiego.
+      niewyobrażalnie trudne zadanie, ale nie wiemy czego się spodziewać, więc
+      musimy, przynajmniej na początku, mieć kontrolę nad tym, co się dzieje.
     </p>
     <p>
       Jednocześnie nie możemy zapominać o pozytywnych aspektach rozwoju
@@ -35,18 +35,24 @@
       ułatwienie funkcjonowania państwa, a przez to na redukcję kosztów i czasu
       potrzebnego do podejmowania działań.
     </p>
-    Wprowadzimy możliwoć głosowania przez Internet, co stworzy warunki dla
-    zwiększenia frekwencji, szczególnie wśród młodych ludzi.
-    <p></p>
+    <p>
+      Wprowadzimy możliwoć głosowania przez Internet, co stworzy warunki dla
+      zwiększenia frekwencji, szczególnie wśród młodych ludzi.
+    </p>
+    <p>
+      Posiadamy masę bardzo dobrze wykształconych ludzi w zakresie informatyki i
+      telekomunikacji. Dzięki naszym specjalistom możemy uczynić Polskę drugim,
+      obok Irlandii, Europejskim hubem IT, a sami będziemy aktywnie zachęcać
+      przedstawicieli największych firm do lokowania swoich siedzib właśnie w
+      Polsce.
+    </p>
+    <p>
+      Całą działalność rozliczać będziemy przez Internet: od e-faktur po
+      załatwienie sprawy zza swojego biurka lub w dowolnym urzędzie. Wstępna
+      kontrola urzędu skarbowego będzie przeprowadzana online. Dopiero w
+      przypadku wykrycia problemów drugi etap kontroli zostanie przeprowadzony w
+      siedzibie kontrolowanego. Interpretacje podatkowe będą jednolite dla
+      całego kraju.
+    </p>
   </div>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({})
-</script>
-
-<style lang="scss" scoped>
-@import '@/styles/index.scss';
-</style>

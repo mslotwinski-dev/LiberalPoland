@@ -15,6 +15,9 @@
         />
       </div>
     </header>
+    <div class="intro">
+      <Icon :key="category" v-for="category in intro" :category="category" />
+    </div>
     <div class="container">
       <div class="chapter" :key="chapter" v-for="chapter in chapters">
         <header v-html="chapter.title" />
@@ -40,6 +43,24 @@ export default defineComponent({
   data() {
     return {
       chapters,
+      intro: [
+        {
+          id: 'intro',
+          name: 'Wstęp',
+        },
+        {
+          id: 'idea',
+          name: 'Deklaracja ideowa',
+        },
+        {
+          id: 'values',
+          name: 'Wartości i Zasady',
+        },
+        {
+          id: 'patterns',
+          name: 'Wzorce',
+        },
+      ],
       icon: 'economy',
       show: true,
       nr: 1,
@@ -156,5 +177,11 @@ img {
     width: 100px;
     height: 100px;
   }
+}
+
+.intro {
+  display: flex;
+  margin: auto;
+  max-width: 800px;
 }
 </style>
